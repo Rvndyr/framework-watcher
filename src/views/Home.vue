@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-    <div v-if="repos.length === 5">
+    <b-container v-if="repos.length === 5">
       <table class="table table-dark">
         <thead>
           <tr>
@@ -21,7 +21,7 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </b-container>
   </div>
 </template>
 
