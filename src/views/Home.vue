@@ -1,5 +1,18 @@
 <template>
-  <div class="Home">
+  <div>
+    <div>
+      <b-jumbotron bg-variant="primary" text-variant="white">
+        <template #header>JS Framework Watcher</template>
+
+        <template #lead>
+          A simple table that allows you to see how frequent some Javascript frameworks are used.
+        </template>
+
+        <hr class="my-4" />
+
+        <p>Utilizing the Github Api, we are fetching information from React, Svelte, Vue, and Angular.</p>
+      </b-jumbotron>
+    </div>
     <b-container v-if="repos.length === 5">
       <table class="table table-dark">
         <thead>
