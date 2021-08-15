@@ -18,10 +18,22 @@
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Repos</th>
-            <th scope="col">Starred</th>
-            <th scope="col">Forked</th>
-            <th scope="col">Watchers</th>
+            <th scope="col">
+              Repos
+              <img src="https://img.icons8.com/color/48/000000/github--v1.png" />
+            </th>
+            <th scope="col">
+              Starred
+              <img src="https://img.icons8.com/color/48/000000/filled-star--v1.png" />
+            </th>
+            <th scope="col">
+              Forked
+              <img src="https://img.icons8.com/color/48/000000/code-fork--v1.png" />
+            </th>
+            <th scope="col">
+              Watchers
+              <img src="https://img.icons8.com/color/48/000000/visible--v1.png" />
+            </th>
           </tr>
         </thead>
         <tbody>
