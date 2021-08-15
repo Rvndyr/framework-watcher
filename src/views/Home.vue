@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <b-jumbotron bg-variant="primary" text-variant="white">
+      <b-jumbotron bg-variant="secondary" text-variant="white">
         <template #header>JS Framework Watcher</template>
 
         <template #lead>
@@ -47,6 +47,9 @@
         </tbody>
       </table>
     </b-container>
+    <hr />
+
+    <div></div>
   </div>
 </template>
 
